@@ -1,11 +1,15 @@
 body {
+    background-color: #1b1d20;
+    color: white;
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
 
 #section-1 {
-    background-color: #cc1818;
-    height: 600px;
+    background-color: #191c2d;
+    height: 900px;
+    min-width: fit-content;
+    color:white
 }
 
 .container {
@@ -31,12 +35,12 @@ nav ul li {
 }
 
 nav ul li.active {
-    background-color: #602de9;
+    background-color: #665846;
     border-radius: 7px;
 }
 
 img {
-    height: 120px;
+    height: 200px;
 }
 
 .main-heading {
@@ -56,13 +60,13 @@ img {
     color: white;
     font-size: 20px;
     padding: 25px 80px;
-    background-color: rgb(45, 14, 220);
+    background-color: #1c1f2e;
     border-radius: 5px;
 }
 
 #section-2 {
-    background-color: rgb(237, 16, 16);
-    min-height: 600px;
+    background-color: #191c2d;
+    height: 900px;
     color: white;
 }
 
@@ -123,7 +127,7 @@ img {
 }
 
 #section-3 {
-    background-color: #1349ea;
+    background-color: #1c1f2e;
     min-height: 800px;
     color: white;
 }
@@ -149,7 +153,7 @@ input[type="email"],
 textarea {
     font-family: 'Titillium Web', sans-serif;
     color: white;
-    background-color: #f80000;
+    background-color: #1b1d20;
     border: none;
     margin: 30px;
     border-radius: 5px;
@@ -165,7 +169,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #c8203f;
+    background-color: #856f4c;
     border: none;
     border-radius: 5px;
     color: white;
@@ -181,7 +185,7 @@ input[type="submit"] {
 }
 
 footer {
-    background-color: rgb(221, 25, 25);
+    background-color: #1b1d20;
 }
 
 .footer-links {
@@ -204,6 +208,6 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
 }
